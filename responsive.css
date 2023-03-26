@@ -1,0 +1,9 @@
+@media (min-width: 400px) and (max-width: 1000px){
+    .jogador2{
+        display:none;
+    }
+    .jogador1{
+        position: relative;
+        left:0;
+    }
+} 

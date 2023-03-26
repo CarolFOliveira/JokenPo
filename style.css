@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(219, 255, 243);
+}
+
+.header{
+  background-image: url("imagens/jogoPPT.png");
+  height: 150px;
+}
+
+.jogador1{
+  position: absolute;
+  left:60px;
+  margin-top: 50px;
+}
+.jogador2{
+  position: absolute;
+  right:60px;
+  margin-top: 50px;
+}
+.options{
+  width: 105px;
+  height: 95px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#pedra1, #pedra2{
+  background-image: url("imagens/pedra.png");
+}
+#papel1, #papel2{
+  background-image: url("imagens/papel.png");
+}
+#tesoura1, #tesoura2{
+  background-image: url("imagens/tesoura.png");
+}
+
+canvas {
+  border: 6px ridge #cb0dc8;
+  margin-top: 50px;
+ color: #31b9eebb;
+ 
+
+}
